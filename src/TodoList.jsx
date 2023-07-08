@@ -4,7 +4,7 @@ export function TodoList({todos, toggleTodo, deleteTodo}){
 
     return (
         <ul className="list">
-            {todos.length === 0 && "No todos" /*js shortcut consept */}
+            {todos.length === 0 && "nothing yet" /*js shortcut consept */}
             {todos.map(todo => {
             return (
                 // <TodoItem 

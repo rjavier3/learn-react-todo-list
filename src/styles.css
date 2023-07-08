@@ -138,3 +138,22 @@
   .list li:has(input:checked) label:hover::before {
     background: hsl(200, 100%, 30%);
   }
+
+
+  /* additional styles */
+.new-item-form .form-row{
+  gap: 1rem;
+}
+
+.list-con{
+  margin: 0;
+  background: #262626;
+  min-height: 10rem;
+  height: fit-content;
+  padding: .5rem .5rem 2rem .5rem;
+  margin-top: 1.5rem;
+}
+
+.list-con .header{
+  margin: 0.3rem 0.3rem 1rem 0.3rem;
+}
